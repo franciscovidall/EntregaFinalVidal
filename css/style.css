@@ -1,0 +1,24 @@
+.imgVehiculos {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 2rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+
+
+.colorBoton {
+    color:#fafafa ;
+    background-color: rgb(189, 183, 107);
+}
+.colorBoton:hover {
+    background-color:rgb(128, 144, 102);
+    color: #fafafa;
+}
