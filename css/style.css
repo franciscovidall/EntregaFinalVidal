@@ -12,7 +12,9 @@
     padding: 1rem;
 }
 
-
+.btn {
+    margin: 10px;
+}
 
 .colorBoton {
     color:#fafafa ;

@@ -12,19 +12,18 @@
 </head>
 <body class="container">
     <h1 class="text-center">PRESTIGE IMPORTS VEHÍCULOS</h1>
+    <input type="text" id="formulario" class="form-control my-2" placeholder="Ingrese el producto que desea ver">
     <hr>
     <div id="contenedorVehiculos" class="row"></div>
 
     <!-- CARRITO DE COMPRAS -->
     <hr>
+    <h2>Carrito de compras</h2>
+    <h3>El total de la compra es de <span id="total"></span> </h3>
+    <button class="btn colorBoton" id="verCarrito">Ver Carrito</button>
+    <button class="btn colorBoton" id="vaciarCarrito">Vaciar Carrito</button>
 
-    <h2>Vehiculos seleccionados</h2>
-<hr>
-    <button" class="btn colorBoton row" id="verCarrito">Ver carrito</button>
-<hr>
-    <button" class="btn colorBoton row" id="vaciarCarrito">Eliminar vehiculos</button>
-
-    <div id="contenedorCarrito" class="row"></div>
+    <div id="contenedorCarrito"></div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="./main.js"></script>
