@@ -91,16 +91,17 @@ const mostrarCarrito = () => {
         const card = document.createElement("div");
         card.classList.add("col-md-12");
         card.innerHTML = `
-                        <div class ="card">
-                            <img src = "${vehiculo.img}" class = "card-img-top imgProductos" alt = "${vehiculo.marca}">
-                            <div>
-                                <h5> ${vehiculo.marca} </h5>
-                                <h5> ${vehiculo.modelo} </h5>
-                                <p> ${vehiculo.precio} </p>
-                                <button class = "btn colorBoton" id="eliminar${vehiculo.id}" > Eliminar </button>
-                            </div>
-                        </div>
-                        `
+            <div class ="card">
+                <img src = "${vehiculo.img}" class = "card-img-top imgProductos" alt = "${vehiculo.marca}">
+                <div>
+                    <h5> ${vehiculo.marca} </h5>
+                    <h5> ${vehiculo.modelo} </h5>
+                    <p> ${vehiculo.precio} </p>
+                    <p> Cantidad: ${vehiculo.cantidad} </p> <!-- Nuevo elemento para mostrar la cantidad -->
+                    <button class = "btn colorBoton" id="eliminar${vehiculo.id}" > Eliminar </button>
+                </div>
+            </div>
+        `
         contenedorCarrito.appendChild(card);
 
         //Eliminar vehiculo uno por uno 
